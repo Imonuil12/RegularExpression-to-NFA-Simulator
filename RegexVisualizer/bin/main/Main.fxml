@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="main.MainController"
+      spacing="10">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <TextField fx:id="regexField" promptText="Enter Regular Expression (e.g. (a|b)*abb)"/>
+    <TextField fx:id="inputField" promptText="Enter Input String (e.g. ababb)"/>
+    <HBox spacing="10">
+        <Button text="Check String" onAction="#onCheck"/>
+    </HBox>
+    <Label fx:id="resultLabel"/>
+</VBox>
