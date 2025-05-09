@@ -5,7 +5,7 @@ RegEx to NFA is a lightweight JavaFX-based tool that allows you to input a regul
 
 This tool is built from scratch without external libraries and serves as an educational simulation of how regex-based languages are translated into nondeterministic finite automata (NFAs).
 
-## 🎯 Features
+## Features
 
 - Regex to NFA conversion using recursive descent parsing
 - Supports:
@@ -17,18 +17,18 @@ This tool is built from scratch without external libraries and serves as an educ
 - Interactive JavaFX GUI
 - Displays acceptance or rejection of input string
 
-## 📸 Demo
+## Demo
 
-Watch the tool in action: [Demo Video](https://drive.google.com/your-demo-link)
+Watch the tool in action: [Demo Video](https://youtu.be/SLa-4XSpi8M)
 
-## 🧠 How It Works
+## How It Works
 
 1. **RegexParser.java** parses the input regular expression into an NFA.
 2. **NFA.java** simulates input string acceptance using epsilon-closure and DFS.
 3. **MainController.java** connects GUI inputs to the simulation backend.
 4. **State.java** and **Transition.java** model the NFA states and edges.
 
-## 📂 Project Structure
+## Project Structure
 
 - `Main.java` - Launches JavaFX app
 - `Main.fxml` - Defines GUI layout (text fields, button, result label)
@@ -37,7 +37,7 @@ Watch the tool in action: [Demo Video](https://drive.google.com/your-demo-link)
 - `NFA.java` - Simulates the NFA for input strings
 - `State.java`, `Transition.java` - Represent automaton components
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Java 17+
